@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Online receptengids </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+      </head>
+      
+      <body>
+        <header>
+          <h1 id="header" class="header-border">Online receptengids</h1>
+          <br>
+        </header>
+        <main>
+          <article>
+            <form name="contact" method="post" data-netlify="true">
+              <label>Naam: <input name="naam" type="text"/></label><br><br>
+              <label>E-mailadres: <input name="email" type="email"></label><br><br>
+              <label>Telefoonnummer: <input name="telnr" type="tel"></label><br><br>
+              <label>Leeftijd: <input name="leeftijd" type="number"></label><br><br>
+              <label>Geboortedatum: <input name="gebooortedatum" type="date"></label><br><br>
+              <label>Geslacht: <input type="radio" name="man" class="gender"> Man <input type="radio" name="vrouw" class="gender"> Vrouw</label><br><br>
+              <label>Favoriete cuisine:</label>
+                <input name="favocuisine-frans" type="checkbox">Frans
+                <input name="favocuisine-italiaans" type="checkbox">Italiaans
+                <input name="favocuisine-spaans" type="checkbox">Spaans
+                <input name="favocuisine-arabisch" type="checkbox">Arabisch<br><br>
+              <label>Favoriete kleur van short: <input name="kleur" type="color"></label><br><br>
+              <label>Biografie: <textarea rows="5" cols="30" name="biografie"></textarea></label><br><br>
+              <label>Upload je laatste recept: <input name="bestand" type="file"></label><br><br>
+             <label>URL naar je recepten website: <input name="website" type="url"></label><br><br>
+             <br>
+              <input type="reset">
+              <button type="submit"> Verzend</button>
+            </form>
+            </article>
+        </main>
+      </body>  
+</html>
